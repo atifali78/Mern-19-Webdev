@@ -362,6 +362,28 @@ To https://github.com/israrkhann08/Mern-19-Webdev.git
  * [new branch]      main -> main
 PS C:\Users\israr\Desktop\mern-19> 
 
+PS C:\Users\israr\Desktop\mern-19> git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\israr\Desktop\mern-19> git push -u origin main  
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 909 bytes | 303.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/israrkhann08/Mern-19-Webdev.git
+   416c01d..6eab405  main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\israr\Desktop\mern-19> 
+
 
 
 
