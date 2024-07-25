@@ -67,7 +67,7 @@ evenOdd(33,44)
 
 //pass by copy and pass by refrence
 
-const check = (Param) {
+const check = (Param) => {
 
     Param = [4, 5]
     console.log("p", Param );
