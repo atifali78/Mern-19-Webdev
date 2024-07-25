@@ -327,4 +327,42 @@ git rebase main
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        -- connect to git-hub and basic command for this --
+
+
+PS C:\Users\israr\Desktop\mern-19> git status
+fatal: not a git repository (or any of the parent directories): .git
+
+PS C:\Users\israr\Desktop\mern-19> git config --global user.name "israrkhann08"
+PS C:\Users\israr\Desktop\mern-19> git config --global user.email "israrkhann08@gmail.com"
+
+PS C:\Users\israr\Desktop\mern-19> git config --list
+PS C:\Users\israr\Desktop\mern-19> git branch
+* master
+PS C:\Users\israr\Desktop\mern-19> git branch -m main           // change branch name   master to main
+PS C:\Users\israr\Desktop\mern-19> git branch
+* main
+PS C:\Users\israr\Desktop\mern-19> git remote -v               // check remote link
+                                                                
+PS C:\Users\israr\Desktop\mern-19> git remote add origin https://github.com/israrkhann08/Mern-19-Webdev.git            // remote repositoy add and then   name it origin  and linking set
+
+PS C:\Users\israr\Desktop\mern-19> git remote -v                 // check remote link
+origin  https://github.com/israrkhann08/Mern-19-Webdev.git (fetch)       //some times we chage the directory fetch from other directory and push to 
+origin  https://github.com/israrkhann08/Mern-19-Webdev.git (push)        // another directory so we can change this
+
+PS C:\Users\israr\Desktop\mern-19> git push origin main   // push and existing repo from command line             
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 3.58 KiB | 1.19 MiB/s, done.    
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/israrkhann08/Mern-19-Webdev.git
+ * [new branch]      main -> main
+PS C:\Users\israr\Desktop\mern-19> 
+
+
+
+
 
