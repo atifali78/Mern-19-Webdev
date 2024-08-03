@@ -1,9 +1,16 @@
-var express = require('express');
-var router = express.Router();
+var routes = require("express").Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+routes.get("/create", (req, res)=> {
+ return res.send("CREATE USER API")
+});
+routes.get("/delete", (req, res)=> {
+ return res.send("DELETE USER API")
+});
+routes.get("/update", (req, res)=> {
+ return res.send("UPDATE USER API")
+});
+routes.get("/patch", (req, res)=> {
+ return res.send("PATCH USER API")
 });
 
-module.exports = router;
+module.exports = routes;
