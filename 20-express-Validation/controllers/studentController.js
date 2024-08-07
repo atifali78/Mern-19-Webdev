@@ -25,6 +25,7 @@ module.exports = {
     },
     deleteSTD: (req, res) => {
         try {
+            user.length = 0;
             return res.send({
                 response: user,
             });

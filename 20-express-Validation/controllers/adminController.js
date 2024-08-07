@@ -25,6 +25,7 @@ module.exports = {
     },
     deleteADM: (req, res) => {
         try {
+            ad.length = 0;
             return res.send({
                 response: "Delete admin ",
             });
