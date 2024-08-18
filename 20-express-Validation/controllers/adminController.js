@@ -1,4 +1,5 @@
 const ad = []
+
 module.exports = {
     createADM: (req, res) => {
         try {
@@ -27,7 +28,7 @@ module.exports = {
         try {
             ad.length = 0;
             return res.send({
-                response: "Delete admin ",
+                response: ad,
             });
         } catch (error) {
             return res.send({
